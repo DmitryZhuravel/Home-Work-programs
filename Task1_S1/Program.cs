@@ -1,7 +1,4 @@
-﻿Console.Write("Введите число А => ");                              
-string A = Console.ReadLine();                            
-int a = int.Parse(A); 
-Console.Write("Введите число B => ");                              
+﻿Console.Write("Введите число B => ");                              
 string B = Console.ReadLine();                            
 int b = int.Parse(B); 
 if (b==a*a)
