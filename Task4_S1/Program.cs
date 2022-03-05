@@ -1,16 +1,5 @@
-﻿Console.Clear();
-int y = 0;
-while (y < 12)
-{
-    int x=y*y;
-    Console.SetCursorPosition(x, y);
-    Console.WriteLine("+");
-    y++;
-}
-
-
-
-
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 Console.Write("Введите число N => ");                              
 string n = Console.ReadLine();                            
 int N = int.Parse(n);   
