@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 // Решение через реверс
-Console.Write("Введите трехзначное число => ");                              
+Console.Write("Введите число => ");                              
 string B = Console.ReadLine();                            
 int a = int.Parse(B);
 string s = a.ToString();
