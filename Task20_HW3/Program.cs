@@ -15,3 +15,4 @@ for (int i=1; i<=N; i++)
    int valye=i*i*i;
    Console.Write(valye+" ");
 }
+
