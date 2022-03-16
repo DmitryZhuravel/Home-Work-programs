@@ -15,4 +15,8 @@ for (int i=1; i<=N; i++)
    int valye=i*i*i;
    Console.Write(valye+" ");
 }
-
+// Сократил строки
+Console.Write("Введите число => ");                              
+string B = Console.ReadLine();                            
+int a = int.Parse(B);
+for (int i=1; i<=a; i++) Console.Write(i*i*i+" ");
